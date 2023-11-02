@@ -1,0 +1,1 @@
+# Projeto para auxiliar com indicadores no mercado financeiro
