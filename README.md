@@ -81,7 +81,3 @@ Contribuições são bem-vindas! Se você gostaria de adicionar novos indicadore
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
-
-Sinta-se à vontade para adicionar mais detalhes ou personalizar o README conforme necessário. Lembre-se de manter o arquivo atualizado conforme o projeto evolui.
