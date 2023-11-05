@@ -1,43 +1,39 @@
-# **Indicadores Forex usando o Python**
+# **Indicadores Forex utilizando Python**
 
-## <strong>Introdução</strong>
+## **Introdução**
 
-Este projeto tem como propósito a ampla visualização das operações em um período de seis meses ou mais, objetivando a criação de métricas substancialmente mais precisas em comparação às plataformas convencionais que lidam com operações no mercado forex. Por meio dessa abordagem, alcançamos uma análise técnica aprimorada, combinada com cálculos matemáticos de alta precisão. A essência do projeto reside na formulação de métricas operacionais que oferecem suporte e orientação em transações envolvendo qualquer tipo de ativo.
+O projeto tem como objetivo fornecer uma análise abrangente das operações no mercado Forex ao longo de um período de seis meses ou mais. O foco está na criação de métricas altamente precisas, que superam as plataformas convencionais em termos de análise técnica e cálculos matemáticos. Esta abordagem visa a formulação de métricas operacionais que oferecem suporte e orientação em transações envolvendo uma ampla gama de ativos.
 
-
-## <strong>Objetivos do software</strong>
+## **Objetivos do Projeto**
 
 1. Desenvolver uma estratégia de osciladores aplicável a diferentes ativos do mercado futuro.
 2. Utilizar indicadores técnicos para calcular médias móveis dos preços dos ativos e identificar oportunidades de compra ou venda.
 3. Testar diversas combinações de osciladores e parâmetros para identificar a estratégia mais eficaz.
 4. Aplicar técnicas de machine learning para analisar os dados históricos de preços e aprimorar a precisão das previsões.
 
+## **Buildagem do Projeto** 
 
-## <strong>Buildagem do projeto</strong> 
-
-### 1.**Coleta de Dados**:
+### **1. Coleta de Dados**
    - Obtenha dados históricos de preços de diferentes ativos do mercado futuro.
-   - Dados históricos coletados das plataformas com mais de uma década 
+   - Dados históricos coletados de plataformas com mais de uma década de registros.
 
-### 2. **Preparação dos Dados**
-   - Limpe e organize os dados para prepará-los para o modelo.
+### **2. Preparação dos Dados**
+   - Limpeza e organização dos dados para prepará-los para o modelo.
 
-### 3. **Escolha dos Indicadores de Osciladores**
+### **3. Escolha dos Indicadores de Osciladores**
    - Selecione os indicadores de osciladores mais apropriados para o projeto.
 
-### 4. **Cálculo das Médias Móveis**
+### **4. Cálculo das Médias Móveis**
    - Calcule as médias móveis dos preços dos ativos utilizando os indicadores de osciladores selecionados.
 
-### 5. **Identificação de Oportunidades de Compra ou Venda**
+### **5. Identificação de Oportunidades de Compra ou Venda**
    - Analise as médias móveis dos preços dos ativos para identificar oportunidades de compra ou venda.
 
-### 6. **Teste de Combinações de Osciladores e Parâmetros**
+### **6. Teste de Combinações de Osciladores e Parâmetros**
    - Experimente diferentes combinações de osciladores e parâmetros para encontrar a estratégia mais eficaz.
 
-### 7. **Utilização de Técnicas de Machine Learning**
-   - Empregue técnicas de machine learning para analisar os dados históricos de preços e melhorar a precisão das previsões.
 
-## Indicadores de Osciladores
+## **Indicadores de Osciladores**
 
 Os osciladores utilizados neste projeto são:
 
@@ -50,19 +46,18 @@ Os osciladores utilizados neste projeto são:
 - Stochastic
 - UO (Ultimate Oscillator)
 
-## Tecnologias Utilizadas
+## **Tecnologias Utilizadas**
 
-Este projeto será desenvolvido em Python, fazendo uso das bibliotecas Pandas, NumPy, Matplotlib e Scikit-learn.
+Este projeto é desenvolvido em Python, fazendo uso das bibliotecas Pandas, NumPy.
 
-## Explicação do Cálculo MGT, Ganho do Efetivo e Eficiência
+## **Explicação do Cálculo MGT, Ganho do Efetivo e Eficiência**
 
-Ao calcular o MGT (Ganho do Efetivo), partimos do pressuposto dos cálculos de Swing Traders. Eles pegam o preço de fechamento do dia atual e subtraem pelo preço de fechamento do dia anterior.
+Ao calcular o MGT (Ganho do Efetivo), partimos do pressuposto dos cálculos de Swing Traders. Eles pegam o preço de fechamento do dia atual e subtraem pelo preço de fechamento do dia anterior. O ganho diário é avaliado com base na perda ou ganho absoluto, definido como eficiência.
 
-É importante destacar que para o ganho diário, o que importa é a perda ou ganho absoluto, que é definido como eficiência.
+## **Conclusão**
 
-## Conclusão
+O projeto visa desenvolver estratégias de osciladores aplicáveis ao mercado futuro, com o intuito de obter lucros consistentes. Os resultados obtidos serão úteis para outros traders que buscam desenvolver estratégias de negociação eficazes.
 
-Com este projeto, esperamos desenvolver estratégias de osciladores que possam ser aplicadas no mercado futuro, visando obter lucros consistentes. Esperamos que os resultados deste projeto sejam úteis para outros traders que também buscam desenvolver estratégias de negociação eficazes.
+**Autor:** [Hedris Pereira](://www.linkedin.com/in/hedriss10/)
 
-**Autor:** 
-<div><a href="://www.linkedin.com/in/hedriss10/">Hedris Pereira</a></div>
+---
