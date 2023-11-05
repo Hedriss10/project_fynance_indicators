@@ -1,0 +1,578 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.7">
+    
+    
+      
+        <title>My Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.4b4a2bd9.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#indicadores-forex-utilizando-python" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Indicadores Forex utilizando Python
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    My Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Indicadores Forex utilizando Python
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Indicadores Forex utilizando Python
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivos-do-projeto" class="md-nav__link">
+    Objetivos do Projeto
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#buildagem-do-projeto" class="md-nav__link">
+    Buildagem do Projeto
+  </a>
+  
+    <nav class="md-nav" aria-label="Buildagem do Projeto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-coleta-de-dados" class="md-nav__link">
+    1. Coleta de Dados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-preparacao-dos-dados" class="md-nav__link">
+    2. Preparação dos Dados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-escolha-dos-indicadores-de-osciladores" class="md-nav__link">
+    3. Escolha dos Indicadores de Osciladores
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-calculo-das-medias-moveis" class="md-nav__link">
+    4. Cálculo das Médias Móveis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-identificacao-de-oportunidades-de-compra-ou-venda" class="md-nav__link">
+    5. Identificação de Oportunidades de Compra ou Venda
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-teste-de-combinacoes-de-osciladores-e-parametros" class="md-nav__link">
+    6. Teste de Combinações de Osciladores e Parâmetros
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#indicadores-de-osciladores" class="md-nav__link">
+    Indicadores de Osciladores
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tecnologias-utilizadas" class="md-nav__link">
+    Tecnologias Utilizadas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#explicacao-do-calculo-mgt-ganho-do-efetivo-e-eficiencia" class="md-nav__link">
+    Explicação do Cálculo MGT, Ganho do Efetivo e Eficiência
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusao" class="md-nav__link">
+    Conclusão
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivos-do-projeto" class="md-nav__link">
+    Objetivos do Projeto
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#buildagem-do-projeto" class="md-nav__link">
+    Buildagem do Projeto
+  </a>
+  
+    <nav class="md-nav" aria-label="Buildagem do Projeto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-coleta-de-dados" class="md-nav__link">
+    1. Coleta de Dados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-preparacao-dos-dados" class="md-nav__link">
+    2. Preparação dos Dados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-escolha-dos-indicadores-de-osciladores" class="md-nav__link">
+    3. Escolha dos Indicadores de Osciladores
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-calculo-das-medias-moveis" class="md-nav__link">
+    4. Cálculo das Médias Móveis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-identificacao-de-oportunidades-de-compra-ou-venda" class="md-nav__link">
+    5. Identificação de Oportunidades de Compra ou Venda
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-teste-de-combinacoes-de-osciladores-e-parametros" class="md-nav__link">
+    6. Teste de Combinações de Osciladores e Parâmetros
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#indicadores-de-osciladores" class="md-nav__link">
+    Indicadores de Osciladores
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tecnologias-utilizadas" class="md-nav__link">
+    Tecnologias Utilizadas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#explicacao-do-calculo-mgt-ganho-do-efetivo-e-eficiencia" class="md-nav__link">
+    Explicação do Cálculo MGT, Ganho do Efetivo e Eficiência
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusao" class="md-nav__link">
+    Conclusão
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="indicadores-forex-utilizando-python"><strong>Indicadores Forex utilizando Python</strong></h1>
+<h2 id="introducao"><strong>Introdução</strong></h2>
+<p>O projeto tem como objetivo fornecer uma análise abrangente das operações no mercado Forex ao longo de um período de seis meses ou mais. O foco está na criação de métricas altamente precisas, que superam as plataformas convencionais em termos de análise técnica e cálculos matemáticos. Esta abordagem visa a formulação de métricas operacionais que oferecem suporte e orientação em transações envolvendo uma ampla gama de ativos.</p>
+<h2 id="objetivos-do-projeto"><strong>Objetivos do Projeto</strong></h2>
+<ol>
+<li>Desenvolver uma estratégia de osciladores aplicável a diferentes ativos do mercado futuro.</li>
+<li>Utilizar indicadores técnicos para calcular médias móveis dos preços dos ativos e identificar oportunidades de compra ou venda.</li>
+<li>Testar diversas combinações de osciladores e parâmetros para identificar a estratégia mais eficaz.</li>
+<li>Aplicar técnicas de machine learning para analisar os dados históricos de preços e aprimorar a precisão das previsões.</li>
+</ol>
+<h2 id="buildagem-do-projeto"><strong>Buildagem do Projeto</strong></h2>
+<h3 id="1-coleta-de-dados"><strong>1. Coleta de Dados</strong></h3>
+<ul>
+<li>Obtenha dados históricos de preços de diferentes ativos do mercado futuro.</li>
+<li>Dados históricos coletados de plataformas com mais de uma década de registros.</li>
+</ul>
+<h3 id="2-preparacao-dos-dados"><strong>2. Preparação dos Dados</strong></h3>
+<ul>
+<li>Limpeza e organização dos dados para prepará-los para o modelo.</li>
+</ul>
+<h3 id="3-escolha-dos-indicadores-de-osciladores"><strong>3. Escolha dos Indicadores de Osciladores</strong></h3>
+<ul>
+<li>Selecione os indicadores de osciladores mais apropriados para o projeto.</li>
+</ul>
+<h3 id="4-calculo-das-medias-moveis"><strong>4. Cálculo das Médias Móveis</strong></h3>
+<ul>
+<li>Calcule as médias móveis dos preços dos ativos utilizando os indicadores de osciladores selecionados.</li>
+</ul>
+<h3 id="5-identificacao-de-oportunidades-de-compra-ou-venda"><strong>5. Identificação de Oportunidades de Compra ou Venda</strong></h3>
+<ul>
+<li>Analise as médias móveis dos preços dos ativos para identificar oportunidades de compra ou venda.</li>
+</ul>
+<h3 id="6-teste-de-combinacoes-de-osciladores-e-parametros"><strong>6. Teste de Combinações de Osciladores e Parâmetros</strong></h3>
+<ul>
+<li>Experimente diferentes combinações de osciladores e parâmetros para encontrar a estratégia mais eficaz.</li>
+</ul>
+<h2 id="indicadores-de-osciladores"><strong>Indicadores de Osciladores</strong></h2>
+<p>Os osciladores utilizados neste projeto são:</p>
+<ul>
+<li>RSI (Relative Strength Index)</li>
+<li>CCI (Commodity Channel Index)</li>
+<li>IFD (Índice de Força Derivada)</li>
+<li>EFI (Elders Force Index)</li>
+<li>Momentum</li>
+<li>CMF (Chaikin Money Flow)</li>
+<li>Stochastic</li>
+<li>UO (Ultimate Oscillator)</li>
+</ul>
+<h2 id="tecnologias-utilizadas"><strong>Tecnologias Utilizadas</strong></h2>
+<p>Este projeto é desenvolvido em Python, fazendo uso das bibliotecas Pandas, NumPy.</p>
+<h2 id="explicacao-do-calculo-mgt-ganho-do-efetivo-e-eficiencia"><strong>Explicação do Cálculo MGT, Ganho do Efetivo e Eficiência</strong></h2>
+<p>Ao calcular o MGT (Ganho do Efetivo), partimos do pressuposto dos cálculos de Swing Traders. Eles pegam o preço de fechamento do dia atual e subtraem pelo preço de fechamento do dia anterior. O ganho diário é avaliado com base na perda ou ganho absoluto, definido como eficiência.</p>
+<h2 id="conclusao"><strong>Conclusão</strong></h2>
+<p>O projeto visa desenvolver estratégias de osciladores aplicáveis ao mercado futuro, com o intuito de obter lucros consistentes. Os resultados obtidos serão úteis para outros traders que buscam desenvolver estratégias de negociação eficazes.</p>
+<p><strong>Autor:</strong> <a href="://www.linkedin.com/in/hedriss10/">Hedris Pereira</a></p>
+<hr />
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.aecac24b.min.js"></script>
+      
+    
+  </body>
+</html>
